@@ -3,7 +3,7 @@ title: Higher Order Functions with Curry and Compose
 date: 2017-02-25
 layout: Post
 # hero credit: https://www.flickr.com/photos/retrochief/5279191747/in/set-72157625518081281/
-hero: https://c1.staticflickr.com/6/5282/5279191747_1eabc8389e_b.jpg
+hero: /assets/posts/higher-order-fn.jpg
 tags:
   - Functional Programming
   - JavaScript

@@ -3,7 +3,7 @@ title: React Higher Order Components (Part 1)
 date: 2017-02-25
 layout: Post
 route: /posts/react-higher-order-components-part-1
-hero: /assets/component-compositions.png
+hero: /assets/posts/component-compositions.png
 tags:
   - react
   - Functional Programming
