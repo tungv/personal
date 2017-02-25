@@ -15,7 +15,8 @@
     "now-start": "cd dist; serve ."
   },
   "phenomic": {
-    "CNAME": true
+    "CNAME": true,
+    "offline": true
   },
   "#babel": "webpack-(development|production) are useful for webpack 2, otherwise use development|production",
   "babel": {
@@ -25,6 +26,9 @@
           "babel-preset-latest",
           "babel-preset-stage-1",
           "babel-preset-react"
+        ],
+        "plugins": [
+          "styled-jsx/babel"
         ]
       },
       "development": {
@@ -36,7 +40,8 @@
         "plugins": [
           "babel-plugin-transform-react-jsx-source",
           "babel-plugin-transform-react-jsx-self",
-          "react-hot-loader/babel"
+          "react-hot-loader/babel",
+          "styled-jsx/babel"
         ]
       },
       "production": {
@@ -45,6 +50,9 @@
           "babel-preset-latest",
           "babel-preset-stage-1",
           "babel-preset-react"
+        ],
+        "plugins": [
+          "styled-jsx/babel"
         ]
       },
       "webpack-development": {
@@ -63,7 +71,8 @@
         "plugins": [
           "babel-plugin-transform-react-jsx-source",
           "babel-plugin-transform-react-jsx-self",
-          "react-hot-loader/babel"
+          "react-hot-loader/babel",
+          "styled-jsx/babel"
         ]
       },
       "webpack-production": {
