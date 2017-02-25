@@ -62,6 +62,8 @@ export default (config = {}) => {
           include: [
             path.resolve(__dirname, "scripts"),
             path.resolve(__dirname, "src"),
+            path.resolve(__dirname, "node_modules/autotrack"),
+            path.resolve(__dirname, "node_modules/dom-utils"),
           ],
           loaders: [
             "babel-loader?cacheDirectory",
