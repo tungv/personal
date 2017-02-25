@@ -1,7 +1,7 @@
 {
   "private": true,
   "name": "blog",
-  "homepage": "https://blog.tungv.com",
+  "homepage": "https://tungv.com",
   "twitter": "tungv",
   "repository": "",
   "scripts": {
@@ -11,7 +11,8 @@
     "start": "phenomic start",
     "build": "phenomic build",
     "pretest": "npm run lint",
-    "test": "npm run build"
+    "test": "npm run build",
+    "now-start": "cd dist; serve ."
   },
   "phenomic": {
     "CNAME": true
@@ -110,6 +111,7 @@
     "history": "^2.0.0",
     "json-loader": "^0.5.2",
     "npm-run-all": "^1.7.0",
+    "phenomic": "^0.20.4",
     "postcss-browser-reporter": "^0.4.0",
     "postcss-cssnext": "^2.4.0",
     "postcss-loader": "^0.13.0",
@@ -124,11 +126,11 @@
     "react-svg-inline": "^1.1.0",
     "react-topbar-progress-indicator": "^1.0.0",
     "redux": "^3.0.0",
+    "serve": "^3.4.1",
     "style-loader": "^0.13.0",
     "stylelint": "^7.2.0",
     "warning": "^3.0.0",
     "webpack": "^1.11.0",
-    "whatwg-fetch": "^0.11.0",
-    "phenomic": "^0.20.4"
+    "whatwg-fetch": "^0.11.0"
   }
 }
