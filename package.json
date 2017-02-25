@@ -2,7 +2,7 @@
   "private": true,
   "name": "blog",
   "homepage": "https://tungv.com",
-  "twitter": "tungv",
+  "twitter": "tung_js",
   "repository": "",
   "scripts": {
     "lint:js": "eslint --ignore-path .gitignore --fix .",
