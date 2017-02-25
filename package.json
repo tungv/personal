@@ -137,6 +137,7 @@
     "redux": "^3.0.0",
     "serve": "^3.4.1",
     "style-loader": "^0.13.0",
+    "styled-jsx": "^0.5.7",
     "stylelint": "^7.2.0",
     "warning": "^3.0.0",
     "webpack": "^1.11.0",
