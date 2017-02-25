@@ -65,6 +65,7 @@ export default (config = {}) => {
             path.resolve(__dirname, "node_modules/autotrack"),
             path.resolve(__dirname, "node_modules/dom-utils"),
           ],
+          exclude: /node_modules\/(?!(autotrack|dom-utils))/,
           loaders: [
             "babel-loader?cacheDirectory",
             "eslint-loader" + (config.dev ? "?emitWarning" : ""),

@@ -3,10 +3,6 @@ import React, { PropTypes } from 'react';
 import './index.global.css';
 import './highlight.global.css';
 
-import 'autotrack';
-import 'autotrack/lib/plugins/url-change-tracker';
-// check out more here https://github.com/googleanalytics/autotrack#plugins
-
 import Container from './components/Container';
 import DefaultHeadMeta from './components/DefaultHeadMeta';
 import Header from './components/Header';
@@ -28,6 +24,8 @@ if (typeof window !== 'undefined') {
   // ga comes from google-analytics script injected below
   ga('create', GOOGLE_ANALYTICS_UA, 'auto');
 
+  require('autotrack/lib/plugins/url-change-tracker');
+  // check out more here https://github.com/googleanalytics/autotrack#plugins
 
   // most important plugin for phenomic
   ga('require', 'urlChangeTracker');
