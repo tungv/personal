@@ -102,7 +102,7 @@ const MyGodLikeAwesomeButton = makeGodLike(MyAnimatedButtonWithRedBorder);
 ```
 
 Looks great, right? But this comes with a drawback. Your original `Button` element get faded into a
-bunch of code. Think about having 10 different function in the composition chain! You will get lost
+bunch of code. Think about having 10 different functions in the composition chain! You will get lost
 pretty easy.
 
 And here come the rescue. **The `compose` function**. As we all know, those composition functions we
